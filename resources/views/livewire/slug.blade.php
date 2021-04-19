@@ -1,4 +1,7 @@
 <div>
+    <div wire:offline>
+        You are now offline.
+    </div>
     <div class="form-group row">
         <label class="block font-medium text-sm text-gray-700" for="title">
             Title
