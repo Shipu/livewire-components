@@ -21,3 +21,4 @@ Route::view('counter', 'pages.counter')->name('counter');
 Route::view('clock', 'pages.clock')->name('clock');
 Route::view('slug', 'pages.slug')->name('slug');
 Route::view('todo', 'pages.todo')->name('todo');
+Route::view('online-offline', 'pages.online_offline')->name('online-offline');

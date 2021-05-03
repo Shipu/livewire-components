@@ -19,9 +19,9 @@
     <div class="flex h-screen">
         <div class="m-auto">
             @yield('content')
+            <div class="absolute top-10 left-10"><a href="{{ url('/') }}">< Back</a></div>
         </div>
     </div>
-
     @livewireScripts
 </body>
 </html>
